@@ -1,0 +1,32 @@
+.cover__wrapper {
+	position: relative;
+	z-index: 1;
+	padding-top: 165px;
+	padding-bottom: 50px;
+}
+
+.cover__title {
+	gap: 20px;
+	color: #fff;
+	letter-spacing: 30px;
+}
+
+.cover__title-text_custom-line-height {
+	line-height: 1.15;
+}
+
+.cover__description {
+	gap: 78px;
+	margin-top: 136px;
+}
+
+.cover__description-text {
+	font-size: 22px;
+	line-height: 1.2727;
+	color: #fff;
+	word-spacing: 18px;
+}
+
+.cover__background {
+	z-index: -2;
+}

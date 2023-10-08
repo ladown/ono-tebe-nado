@@ -1,0 +1,14 @@
+.button-primary {
+	display: flex;
+	width: fit-content;
+	max-width: 100%;
+	padding: 12px 32px;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 1px solid #fff;
+}

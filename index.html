@@ -1,10 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-  </head>
-  <body></body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+		<link rel="stylesheet" href="styles/base/style.css" />
+		<link rel="stylesheet" href="styles/pages/index-page.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="header__wrapper wrapper">
+				<nav>
+					<ul class="header__links-list flex">
+						<li class="header__links-list-item header__links-list-item_no-bullet">
+							<a href="#" class="header__link header__link_active text-underline">главная</a>
+						</li>
+						<li class="header__links-list-item">
+							<a href="#" class="header__link text-underline">посмотреть лоты</a>
+						</li>
+						<li class="header__links-list-item">
+							<a href="#" class="header__link text-underline">об аукционе</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#" class="header__logo flex">
+					<img src="images/logo-black.svg" alt="Фотография логотипа - 'Оно тебе надо'" />
+				</a>
+				<div class="address flex flex_column flex_nowrap flex_start">
+					<a class="address__link text-underline" href="tel:+99995555555">+9 999 555 5555</a>
+					<a class="address__link text-underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+					<address class="address__text">наб. Принсенграхт 263-265, Амстердам</address>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section class="section cover">
+				<div class="cover__wrapper wrapper">
+					<h1 class="cover__title text-uppercase flex flex_column flex_nowrap h1">
+						<span class="aligned-text line-height-small">
+							о
+							<span class="letter-spacing-extended">но</span>
+						</span>
+						<span class="aligned-text aligned-text_center">
+							те
+							<span class="letter-spacing-extended">бе</span>
+						</span>
+						<span class="aligned-text aligned-text_right">
+							<span class="letter-spacing-extended">н</span>
+							ад
+							<span class="no-letter-spacing">о</span>
+						</span>
+					</h1>
+					<div class="cover__description flex flex_nowrap flex_vertical flex_right">
+						<p class="cover__description-text text-uppercase">Аукцион вещей, в которые никто не верил</p>
+						<button class="cover__description-button button-primary">Сделать ставку</button>
+					</div>
+					<div class="overlay"></div>
+					<img src="images/cover.jpg" alt="Фон главной секции" class="cover__background object-fit-cover" />
+				</div>
+			</section>
+			<section class="section lots">
+				<div class="wrapper">
+					<h2 class="lots__heading text-uppercase h2">Лоты</h2>
+					<ul class="lots__card-list">
+						<li>
+							<a href="#">
+								<article class="card flex flex_column flex_nowrap">
+									<h5 class="card__title text-uppercase text-underline">
+										Фильм режиссёра, который бросил киношколу
+									</h5>
+									<span class="card__text">
+										Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали,
+										что режиссёр — Пол Томас Андерсон?
+									</span>
+									<span class="overlay"></span>
+									<img
+										src="images/card-lot-01.jpg"
+										alt="Фоновое изображение лота №1"
+										class="card__image object-fit-cover"
+									/>
+								</article>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<article class="card flex flex_column flex_nowrap">
+									<h5 class="card__title text-uppercase text-underline">
+										Книга, где описан один скучный день из жизни рекламного агента
+									</h5>
+									<span class="card__text">
+										Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на
+										древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории
+										литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера.
+										Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+									</span>
+									<span class="overlay"></span>
+									<img
+										src="images/card-lot-02.jpg"
+										alt="Фоновое изображение лота №2"
+										class="card__image object-fit-cover"
+									/>
+								</article>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<article class="card flex flex_column flex_nowrap">
+									<h5 class="card__title text-uppercase text-underline">
+										Картина, которую повторит даже 5-летний сын маминой подруги
+									</h5>
+									<span class="card__text">
+										Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на
+										инфузорию-туфельку. Никаких полей, лесов, котиков… Сколько бы вы на такое поставили, если
+										бы не знали, что это — одна из революционных работ Кандинского?
+									</span>
+									<span class="overlay"></span>
+									<img
+										src="images/card-lot-03.jpg"
+										alt="Фоновое изображение лота №3"
+										class="card__image object-fit-cover"
+									/>
+								</article>
+							</a>
+						</li>
+					</ul>
+					<div class="lots__footer">
+						<a href="#" class="button-simple-link text-underline">посмотреть больше</a>
+					</div>
+				</div>
+			</section>
+			<section class="section about">
+				<div class="about__wrapper wrapper flex">
+					<div class="about__column about__column_left">
+						<div class="about__logo flex">
+							<img
+								src="images/logo-white.svg"
+								alt="Фотография логотипа - 'Оно тебе надо'"
+								class="about__logo-image"
+							/>
+						</div>
+					</div>
+					<div class="about__column about__column_right">
+						<h2 class="h2 text-uppercase">Об аукционе</h2>
+						<div class="about__text">
+							<p>
+								Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты
+								вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка
+								или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные
+								любителями?
+							</p>
+							<p>
+								Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные
+								критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на
+								критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить
+								современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас
+								эти лоты стали культовыми.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__wrapper wrapper">
+				<div class="address flex flex_column flex_nowrap flex_start">
+					<a class="address__link text-underline" href="tel:+99995555555">+9 999 555 5555</a>
+					<a class="address__link text-underline" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+					<address class="address__text">наб. Принсенграхт 263-265, Амстердам</address>
+				</div>
+				<nav>
+					<ul class="footer__menu-list">
+						<li>
+							<a href="#" class="footer__link footer__link_active text-underline">главная</a>
+						</li>
+						<li>
+							<a href="#" class="footer__link text-underline">посмотреть лоты</a>
+						</li>
+						<li>
+							<a href="#" class="footer__link text-underline">об аукционе</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="socials flex">
+					<li class="socials__item">
+						<a href="#" class="socials__link flex">
+							<img src="images/yt.svg" alt="Иконка социально сети YouTube" />
+						</a>
+					</li>
+					<li class="socials__item">
+						<a href="#" class="socials__link flex">
+							<img src="images/vk.svg" alt="Иконка социально сети ВКонтакте" />
+						</a>
+					</li>
+					<li class="socials__item">
+						<a href="#" class="socials__link flex">
+							<img src="images/pinterest.svg" alt="Иконка социально сети Pinterest" />
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
 </html>

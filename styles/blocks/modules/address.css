@@ -1,0 +1,12 @@
+.address {
+	font-size: 18px;
+	line-height: 1.35;
+}
+
+.address__link {
+	text-underline-offset: 5px;
+}
+
+.address__text {
+	font-style: normal;
+}

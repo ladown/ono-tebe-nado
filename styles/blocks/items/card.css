@@ -1,0 +1,22 @@
+.card {
+	position: relative;
+	z-index: 1;
+	gap: 30px;
+	min-height: 450px;
+	padding: 50px 40px;
+	line-height: 1.2;
+	color: #fff;
+}
+
+.card__title {
+	font-size: 22px;
+	text-underline-offset: 3px;
+}
+
+.card__text {
+	margin-top: auto;
+}
+
+.card__image {
+	z-index: -2;
+}
