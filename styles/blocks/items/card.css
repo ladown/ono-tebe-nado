@@ -1,22 +1,43 @@
+.card-link {
+  display: block;
+  height: 100%;
+  min-height: 450px;
+}
+
 .card {
-	position: relative;
-	z-index: 1;
-	gap: 30px;
-	min-height: 450px;
-	padding: 50px 40px;
-	line-height: 1.2;
-	color: #fff;
+  position: relative;
+  z-index: 1;
+  gap: 30px;
+  height: 100%;
+  padding: 50px 40px;
+  line-height: 1.2;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card_type_film {
+  background-image: url('../../../images/card-lot-01.jpg');
+}
+
+.card_type_book {
+  background-image: url('../../../images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+  background-image: url('../../../images/card-lot-03.jpg');
 }
 
 .card__title {
-	font-size: 22px;
-	text-underline-offset: 3px;
+  font-size: 22px;
+  text-underline-offset: 3px;
 }
 
 .card__text {
-	margin-top: auto;
+  margin-top: auto;
 }
 
 .card__image {
-	z-index: -2;
+  z-index: -2;
 }

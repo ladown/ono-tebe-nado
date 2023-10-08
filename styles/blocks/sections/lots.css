@@ -1,16 +1,23 @@
 .lots__heading {
-	padding: 0 40px;
+  padding: 0 40px;
+  font-size: 40px;
+  line-height: normal;
 }
 
 .lots__card-list {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(430px, 1fr));
-	gap: 25px;
-	margin-top: 27px;
-	list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 25px;
+  margin-top: 27px;
+  list-style: none;
+}
+
+.lots__card-list-item {
+  flex: 1 1 430px;
+  max-width: 100%;
 }
 
 .lots__footer {
-	padding: 0 40px;
-	margin-top: 30px;
+  padding: 0 40px;
+  margin-top: 30px;
 }
