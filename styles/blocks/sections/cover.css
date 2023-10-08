@@ -14,10 +14,6 @@
   letter-spacing: 30px;
 }
 
-.cover__title-text_custom-line-height {
-  line-height: 1.15;
-}
-
 .cover__description {
   gap: 78px;
   margin-top: 136px;
@@ -28,8 +24,4 @@
   line-height: 1.2727;
   color: #fff;
   word-spacing: 18px;
-}
-
-.cover__background {
-  z-index: -2;
 }

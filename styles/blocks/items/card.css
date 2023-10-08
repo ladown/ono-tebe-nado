@@ -37,7 +37,3 @@
 .card__text {
   margin-top: auto;
 }
-
-.card__image {
-  z-index: -2;
-}
